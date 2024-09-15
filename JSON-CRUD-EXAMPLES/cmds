@@ -1,0 +1,19 @@
+https://simplilearn-net.zoom.us/j/98086781837?pwd=zn6BSVOe5cxHnQmie3X64MkBzpGGb0.1
+
+curl -X POST -H "Content-Type: application/json" -d {"id":5,"name":"eee","email":"eee@gmail.com","phone":"567891234"} http://localhost:3000/users to add
+curl http://loalhost:3000/users list all the users in the db users
+curl http://loalhost:3000/users/2 particulr id
+
+-X proxy server
+
+PUT
+curl -X PUT -H "Content-Type: application/json" -d '{"name":"eee","email":"efe@gmail.com","phone":"5678912344"}' http://localhost:3000/users/5
+curl -X PATCH -H "Content-Type: application/json" -d '{"email":"efe@gmail.com"}' http://localhost:3000/users/5
+particular update are allowed
+
+DELETE
+curl -X DELETE http://localhost:3000/users/5
+
+what are endpoints?
+They are the url
+
